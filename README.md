@@ -31,7 +31,7 @@ BuddyCall is a modern real-time communication app that enables secure authentica
 
 | Login / Register | Friends | Video Calling |
 |:----------------:|:-------:|:-------------:|
-| ![Login](./screenshots/login.jpeg) | ![Friends](./screenshots/friends.jpeg) | ![Video Call](./screenshots/video-call.jpeg) |
+| ![Login](./WhatsApp%20Image%202026-03-27%20at%2016.46.05%20(1).jpeg) | ![Friends](./WhatsApp%20Image%202026-03-27%20at%2016.46.05.jpeg) | ![Video Call](./WhatsApp%20Image%202026-03-27%20at%2016.46.36.jpeg) |
 
 ---
 
