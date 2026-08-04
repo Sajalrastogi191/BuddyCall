@@ -45,7 +45,47 @@ BuddyCall is a modern real-time communication app that enables secure authentica
 
 ### Installation
 
-Clone the repository and navigate to the frontend directory:
+Clone the repository and navigate to the project root directory:
+
+```bash
+cd BuddyCall
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+### Android Setup
+1. Ensure Android Studio is installed with SDK and an emulator or connect a physical Android device (enable USB debugging).
+2. Reverse the Metro port for device debugging:
+   ```bash
+   adb reverse tcp:8081 tcp:8081
+   ```
+3. Start the Metro bundler:
+   ```bash
+   npm start
+   ```
+4. Run the app on Android:
+   ```bash
+   npx react-native run-android
+   ```
+
+### iOS Setup (macOS only)
+1. Install CocoaPods dependencies:
+   ```bash
+   cd ios && pod install && cd ..
+   ```
+2. Open the project in Xcode and select a simulator or a connected iPhone.
+3. Run the Metro bundler:
+   ```bash
+   npm start
+   ```
+4. Build and run from Xcode or via CLI:
+   ```bash
+   npx react-native run-ios
+   ```
 
 ```bash
 cd frontend
