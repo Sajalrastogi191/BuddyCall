@@ -13,7 +13,7 @@
     "events": "^3.3.0",
     "react": "18.2.0",
     "react-native": "0.72.0",
-    "react-native-get-random-values": "^2.0.0",
+    "react-native-get-random-values": "^1.8.0",
     "react-native-webrtc": "^124.0.7"
   },
   "devDependencies": {
